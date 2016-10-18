@@ -26,7 +26,24 @@
 	 -webkit-font-smoothing:antialiased;
 	 text-rendering:optimizelegibility;
  }
+ 
+ .jumbotron{
+	 font-family: 'Philosopher', sans-serif;
+ }
    
+  .my{
+	  font-family: 'Dancing Script', cursive;
+	  font-weight:bold;
+  }
+  
+ h1,h2{
+	font-family: 'Dancing Script', cursive;
+ }
+ 
+ p{
+	 font-family: 'Philosopher', sans-serif;
+ }
+ 
  ul.unstyled{
 	 list-style:none;
 	 padding;0;

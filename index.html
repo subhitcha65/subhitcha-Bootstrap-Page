@@ -7,7 +7,7 @@
 		<meta name="description" content="">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		
+		<link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Lobster|Philosopher" rel="stylesheet">
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 		
@@ -29,7 +29,7 @@
 			<span class="icon-bar"></span>
 		</button>
 	
-		<a class="navbar-brand" href="/">My Books Collections</a>
+		<a class="my navbar-brand" href="/">My Books Collections</a>
 		
 		<div class="nav-collapse collapse navbar-responsive-collapse">
 			
@@ -126,12 +126,13 @@
 			<div class="page-header">
 				<h1>Introducing Collections</h1>
 			</div><!-- end page-header -->
-			
-			<p class="lead">My Books Collection has a vast collection of books suiting everyone’s taste and needs. Whether you a bookworm or solitary soul looking for 
-			companion, we offer a whole array of books from fiction to non-fiction, biographies to entrance exams’ books. Being one of the largest online 
+			<div class="jumbotron">
+				<p class="lead">My Books Collection has a vast collection of books suiting everyone's taste and needs. Whether you a bookworm or solitary soul looking for 
+			companion, we offer a whole array of books from fiction to non-fiction, biographies to entrance exams books. Being one of the largest online 
 			bookstores we have stocked up more than million titles and every genre possible across categories such as Sports & Games, Environment & Nature, 
 			Entrance Exams, Academic & Professional, Biographies & Auto Biographies, Fiction & Non Fiction to name a few. Enjoy reading an endless collection 
 			of enduring classics from our online bookstore.</p>
+			</div>
 		</div><!-- end well -->
 		
 	</div><!-- end col-12 -->
@@ -155,7 +156,34 @@
 			
 			<p>One Indian Girl is about an Indian girl who is intelligent and successful, because of which she finds it difficult to get love. It asks why when it comes to love, being intelligent and too successful is almost a drawback 
 			for women.</p>
-			<a href="#" target="_blank" class="btn btn-warning btn-block">Download One Indian Girl</a>
+			<a href="#myModal" target="_blank" class="btn btn-warning btn-block" data-toggle="modal">Download One Indian Girl</a>
+			
+			<div class="modal fade" id="myModal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal">&times;</button>
+				
+							<h4 class="modal-title">Download</h4>
+						</div><!-- end modal-header -->
+						<div class="modal-body">
+							<h4>Intoduction</h4>
+				
+							<p>One Indian Girl is Book about an Indian girl who is intelligent and successful, because of which she finds it difficulty to get love. 
+							The book hopes to question society, which can judges women achievers. It asks why when it comes to love, being intelligent and too successful 
+							is almost a drawback for women.Author Want to Write Book in Female Version.After that He Decide to Write a Novel about One Indian Girl.He 
+							wrote on feminism because it is not an equal world for women, and most men and (even several women) don’t even realize it. As a writer chetan 
+							Bhagat , highlight issues in society that affect a lot of people. Feminism affects us all.</p>
+				
+						</div><!-- end modal-body -->
+						<div class="modal-footer">
+							<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-default" type="button">Download</button>
+						</div><!-- end modal-footer -->
+					</div><!-- end modal-content -->
+				</div><!-- end modal-dialog -->
+			</div><!-- end myModal -->
+
+
 		</div><!-- end panel -->
 	</div><!-- end feature -->
 	
@@ -240,7 +268,7 @@
 	</div><!-- end row -->
 	
 	<div class="tabbable">
-	<h3>Popular Authors</h3>
+	<h2>Popular Authors</h2>
 	<ul class="nav nav-tabs">
 		<li class="active"><a href="#tab1" data-toggle="tab">Ravindar Singh</a></li>
 		<li><a href="#tab2" data-toggle="tab">Chetan Bhagat</a></li>
@@ -261,7 +289,7 @@
 			
 			<hr>
 			
-			<a href="file:///D:/bootstrap/index1.html" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Books by Ravindar Singh</a>
+			<a href="file:///D:/Workspace/bootstrap/index1.html" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Books by Ravindar Singh</a>
 			
 		</div><!-- end tab-pane -->
 		
